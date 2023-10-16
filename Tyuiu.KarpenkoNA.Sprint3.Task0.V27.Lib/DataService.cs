@@ -16,7 +16,7 @@ namespace Tyuiu.KarpenkoNA.Sprint3.Task0.V27.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + (Math.Pow((4 / Math.Pow(startValue, value)), 2));
+                sumSeries = sumSeries + (Math.Pow((4 / Math.Pow(i, value)), 2));
             }
             return Math.Round(sumSeries, 3);
         }
